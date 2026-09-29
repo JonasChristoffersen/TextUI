@@ -1,6 +1,14 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
+//This class is created to help myself streamline my future coding projects.
+//By creating this class, it eliminates the need to create scanners other places
+
+//To use this class it is required to create an instance of this class.
+//This can fx look like the following:
+//TextUI ui = new TextUI();
+//After this, it is possible to call these methods via the following syntax: ui.methodName(parameters);
+
 public class TextUI {
     Scanner scan = new Scanner(System.in);
 
